@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Sakthi Balan Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body bgcolor="#999999">
+<table width="780" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td style="padding-left:25px" bgcolor="#5678BB" class="logo" height="75">
+      <h1><font color="#AEC3E5"> M Sakthi Balan </font></h1>
+  </td>
+  </tr>
+  <tr> 
+    <td height="22" colspan="2" bgcolor="#999999"> 
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr> 
+          <td height="22" bgcolor="#FFCC66" class="text" align="center"> <a href="new-index.html">Home</a> 
+            | <a href="about-me.html">About Me</a> | <a href="research-interest.html">Research Interests</a> | <a href="presentations.html">Presentations</a> 
+            | <a href="publications.html">Publications</a> | <a href="what-else.html">What Else I Enjoy</a> | <a href="other-stuffs.html"> Other Stuffs I Do</a> | <a href="http://logofmymind.blogspot.com"> My Blog </a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="780" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr>
+<td bgcolor="#eeeeee" valign="top"> 
+      <table width="780" cellspacing="10" cellpadding="0" align="center" border="0">
+        <tr> 
+          <td valign="top" class="text">
+<h2> My experiences with Fedora Core 4</h2>
+
+<p>Previously I was using FC2 with WinXP
+in my notebook for almost 1.25
+years. For some reason my harddisk went bad and I had to replace it
+with a new harddisk. But I could not find the same 30GB HDD so I got
+40GB HDD. I had FC3 with me but since FC4 was already out I
+thought I would go for FC4 instead of FC3. After replacing my harddisk
+I was just running WinXP for a week. I was having only one partition on
+my HDD. I can do the partition magic to divide the partition for WinXP
+and free the partition for Linux; but since I had no useful datas
+sitting on my HDD I decide to do complete installations for both. First
+I put the WinXP CD for installation I created 2 paritions one 8GB and
+other 32GB I left untouched. Installed WinXP in the 8GB parititon which
+became my C directory. My D directory is my CD drive. Then I put the
+FC4 CD 1 and booted it through the CDROM. Before getting into
+installation I tried testing the media first time I got the message
+media not good for installation as it is corrupted; I was quite
+surprised; then again I checked this time I got the message failed and
+asked me to clean the media for dust. I cleaned my media with a small
+soft cloth and went into the installation instead of again testing :).
+The installation went into graphics mode without any problem unlike the
+FC2 and&nbsp; with disk druid I did the custom partitioning like this;</p>
+
+1) First partition - C directory - NTFS - 8GB - untouched <br>
+<br>
+2) Second partition - / directory - ext3 - 5GB - format<br>
+<br>
+3) Third partition - FAT - 8GB - format<br>
+<br>
+4) Extended ones - a) Swap - 1.2GB - format<br>
+<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; b)
+Home - ext3 - 5GB - format<br>
+<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; c)
+/usr - ext3 - remaining - format<br>
+
+<p>Chose the packages for my use and there it started my installation. It
+went fine and it seemed to have recognized all my hardwares. When I got
+it installed I logged in and saw the resolution is not as I wanted; the
+resolution fo my laptop is 1024x768 but my Xconfig file was having only
+800x600 and an even lesser one. So I opened the display preperties as
+root and saw my monitor was put as unknown. I chose the Dell LCD
+1024x768 which was there in the list and logged in again. Now my
+resolution was perfect :)</p>
+
+Success list:
+
+<ul>
+  <li>Sound card works</li>
+  <li>Video works fine after little tweak as said above</li>
+  <li>Touch pad....oops...tooo sensitive...looked into forums and know
+how to deal with it...but I am used to it now :)</li>
+  <li>Usb all ports works fine, ethernet works.<br>
+  </li>
+  <li>Deskjet 932c printer recognized without any fuss, unlike the FC2
+version :)</li>
+  <li>I can work with my digital camera DSC-W1 to import
+pictures....great....</li>
+  <li>K3B works really fine so I can write (V)CD/DVD. For VCD I needed
+to install vcdimager as an extra package. I was running Nerolinux in
+FC2 but K3B is awesome.<br>
+  </li>
+  <li>xmms (my favorite player) installed with mp3 plugins. But it was
+stopping when playing songs so I did the following in xmms goto options
+-&gt; preferences -&gt; output plugin -&gt; configure -&gt; advanced
+settings and uncheck the Mmap mode. Now it is working perfectly</li>
+  <li>For the following things to work I referred this <a
+ href="http://stanton-finley.net/fedora_core_4_installation_notes.html">page</a>
+. It gives a step by step approach to install some useful softwares and
+get it configured correctly for your system.
+  <ul>
+    <li>firefox (my favorite browser)</li>
+    <li>mplayer</li>
+    <li>bittorrent (azureus is the best one but it is not working in my
+notebook. But I was using azureus in FC2)</li>
+  </ul> </li>
+  <li>Installed realplayer after installing the required lib files
+present in&nbsp; libcdio-0.76-1.fc4.i386.rpm.</li>
+  <li>Installed JRE without any problem. For mozilla plugin for java I
+followed this <a href="http://home.gagme.com/greg/linux/fc4-tips.php">page</a>.
+    <br>
+  </li>
+  <li>Acrobat reader installed and works fine.</li>
+  <li>Gaim works for yahoo, msn and gtalk. So I and others can be
+online in all at the same time in the same window. This is really
+cool.&nbsp; In FC2 only yahoo was working.<br>
+  </li>
+</ul>
+Untried/Failures
+
+<ul>
+  <li>Azureus not working giving lots of run-time errors eventhough I
+have installed JRE. I do not know why. But I do not want this one as it
+captures most of my RAM.</li>
+  <li>Modem untried since I have Hi-speed network</li>
+  <li>Wireless not tried. Planning to try it soon...</li>
+  <li>Sound recording has some problems I am trying to sort it out. Mic
+is working but when I record and play no sound comes out. <br>
+  </li>
+  <li>Suspend/standby modes not working (if anyone knows how to do this
+please contact me. I would be really happy.)<br>
+  </li>
+</ul>
+<p>In a nutshell we can see the list
+above there is more success than failures, I am quite satisified with
+this version.&nbsp; Surprisingly even KDE works fast enough with this
+256mb RAM notebook. Although I am a gnome fan I am using KDE now for a
+change :)</p>
+Bye! Wish you happy time with Fedora!<br>
+<br>
+<a href="linux.html">Goback</a><br>
+</table></table>
+
+

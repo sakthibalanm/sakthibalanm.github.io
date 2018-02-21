@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Sakthi Balan Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body bgcolor="#999999" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="780" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td style="padding-left:25px" bgcolor="#5678BB" class="logo" height="75">
+      M Sakthi Balan
+  </td>
+  </tr>
+  <tr> 
+    <td height="22" colspan="2" bgcolor="#999999"> 
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr> 
+          <td height="22" bgcolor="#FFCC66" class="text" align="center"> <a href="new-index.html">Home</a> 
+            | <a href="sakthi_acad_bio_data.pdf">Curriculum Vitae</a> | <a href="research-interest.html">Research Interests</a> | <a href="presentations.html">Presentations</a> 
+            | <a href="publications">Publications</a> | <a href="what-else.html">What Else I Enjoy</a> | <a href="other-stuffs.html"> Other Stuffs I Do </a> </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="780" cellspacing="0" cellpadding="0" border="0" align="center">
+<td bgcolor="#eeeeee" valign="top"> 
+      <table width="780" cellspacing="10" cellpadding="0" align="center" border="0">
+        <tr> 
+          <td valign="top" class="text">
+
+<h2>Other Stuffs I do</h2>
+<p>In this page I just put some random articles on carnatic music,
+raga lakshanas, chess, my research, linux....or anything that comes to
+my mind. Hope it will be interesting for you...</p>
+First my wiki articles on some ragas and its lakshanas:<br>
+<p><a href="http://en.wikipedia.org/wiki/Ataana" title="Ataana">Ataana</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Aanadhabhairavi"
+ title="Aanadhabhairavi">Aanadhabhairavi</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Arabhi" title="Arabhi">Arabhi</a></p>
+<p>More articles to come soon....hope so...:)
+</p>
+
+<p>For more articles please visit: <a href="http://logofmymind.blogspot.com">My Blog</a></p>
+</body>
+</html>

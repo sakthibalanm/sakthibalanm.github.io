@@ -1,0 +1,10 @@
+/* 20030724 */
+BODY {color: silver; font-weight: normal; background: ivory; margin: 10px}
+A {text-decoration: none; cursor: pointer; cursor: hand}
+.c {color: darkblue; font-style: normal; font-weight: normal}
+/*.v {position: relative; left: 10px}*/
+.o0 {color: black; font-style: normal; font-weight: bold}
+.o1 {color: black; font-style: normal; font-weight: normal}
+.o2 {color: maroon; font-style: normal; font-weight: normal}
+.o3 {color: green; font-style: normal; font-weight: normal}
+.o4 {color: fuchsia; font-style: normal; font-weight: normal}
